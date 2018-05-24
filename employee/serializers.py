@@ -5,4 +5,4 @@ from rest_framework import serializers
 class employee_serializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Employee
-        fields = ('name', 'department')
+        fields = ('id', 'first_name', 'last_name', 'department', 'create_date')

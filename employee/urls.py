@@ -1,6 +1,7 @@
-from django.urls import path
-from . import views
+from django.conf.urls import url
+from employee import views
 
 urlpatterns= [
-    path('',views.index,name='index')
+    url(r'employee/$', views.employee_list),
+    url(r'employee/(?P<pk>[0-9]+)/$', views.employee_detail),
 ]
