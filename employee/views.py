@@ -46,7 +46,7 @@ def employee_detail(request, pk):
 
     elif request.method == 'PUT':
         data = JSONParser().parse(request)
-        serializer = employee_serializer(employee   , data=data)
+        serializer = employee_serializer(employee, data=data)
         if serializer.is_valid():
             serializer.save()
             return JsonResponse(serializer.data)
