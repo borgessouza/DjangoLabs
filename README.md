@@ -7,7 +7,7 @@ Rest API for control employees
 * [Python](https://www.python.org/) A programming language that lets you work quickly
 * [Django](https://www.djangoproject.com/) The web framework for perfectionists
 
- ### Authors
+### Authors
  
  * **Cassiano Souza** - *Initial work* - [borgessouza](https://github.com/borgessouza)
 
@@ -71,7 +71,7 @@ Add new Employee in the data params
 
 * **URL Params:**
 
-   `id=[integer]`
+     `id=[integer]`
    
 * **Data Params:**
 ```json
@@ -102,7 +102,7 @@ Add new Employee in the data params
  
  *  **URL Params:**
  
-    `id=[integer]`
+       `id=[integer]`
  
  * **Success Response:**
    * **Code:** 204 No Content
