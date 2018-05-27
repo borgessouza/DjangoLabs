@@ -34,19 +34,19 @@ Add new Employee in the data params
 * **Method:** POST
 
 * **Data Params:**
-  ```json
+```json
   {
       "first_name": "first",
       "last_name": "last",
       "department": "dept",
       "email": "email@company.com"
   }
-  ```
+```
 
 * **Success Response:**
   * **Code:** 201 Created
   * **Content:**
-  ```json
+```json
      {
          "id" : 1,
          "first_name": "first",
@@ -54,7 +54,7 @@ Add new Employee in the data params
          "department": "dept",
          "email": "email@company.com"
      }
-     ```
+```
 
 * **Error Response:**
   * **Code:** 400 Bad Request
@@ -152,7 +152,7 @@ Add new Employee in the data params
    * **Success Response:**
      * **Code:** 200 OK
      * **Content:**
-     ```json
+ ```json
      {
          "id" : 1,
          "first_name": "first",
@@ -160,7 +160,7 @@ Add new Employee in the data params
          "department": "dept",
          "email": "email@company.com"
      }
-     ```
+ ```
      
    * **Error Response:**
      * **Code:** 404 Not Found
