@@ -6,4 +6,5 @@ from django.contrib import admin
 # Register your models here.
 from .models import Employee
 
+# Resister Employee model in django admin
 admin.site.register(Employee)

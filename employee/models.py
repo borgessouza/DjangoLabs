@@ -12,5 +12,3 @@ class Employee(models.Model):
     email = models.CharField(max_length=100)
     create_date = models.DateTimeField(auto_now_add=True, null=True)
 
-    class Meta:
-        ordering = ('create_date',)
