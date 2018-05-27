@@ -5,9 +5,11 @@ from django.db import models
 
 # Create your models here.
 class Employee(models.Model):
-    first_name = models.CharField(max_length=50)
+    id = models.AutoField(primary_key=True)
+    first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=50)
     department = models.CharField(max_length=50)
+    email = models.CharField(max_length=100)
     create_date = models.DateTimeField(auto_now_add=True, null=True)
 
     class Meta:
